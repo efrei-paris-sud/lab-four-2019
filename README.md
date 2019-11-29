@@ -196,6 +196,7 @@ Please Follow the instruction [here](https://techtutorialsx.com/2017/11/18/esp32
 3. Get free API key from: [Open Weather Map](https://openweathermap.org/price)
 4. Once the activation time ends, you can do a quick test to check if you can reach the API with your key. To do it, simply access the following URL on your browser, changing {yourAPIkey} by the key you have obtained:
 ```http://api.openweathermap.org/data/2.5/weather?q=Paris,fr&units=metric&APPID={yourAPIkey}```
+4. there is some error in open weather map so you can their sample api https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22
 5. Read Weather information from Arduino and print current tempereture in Serial
 6. Save your codes into `lab/4/report/1/code.ino`, Save a screenshot of your serial console into `lab/4/report/1/screenshot.png`, Create a README.md file which contains a short description, your code, and the image.
 
